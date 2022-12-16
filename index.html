@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar uma conta</h2>
+      </div>
+      <!--header-->
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de usuário:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário:"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Digite seu email:" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="senha">Senha:</label>
+          <input type="password" id="password" placeholder="Digite sua senha..." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>/small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de senha:</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite sua senha novamente..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <button type="submit">Enviar!</button>
+      </form>
+      <!--form-->
+    </div>
+    <!--container-->
+
+    <script
+      src="https://kit.fontawesome.com/43bf6e9744.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
