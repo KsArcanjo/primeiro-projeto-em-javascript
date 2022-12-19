@@ -1,1 +1,2 @@
-Esse projeto foi feito para aprender a usar o javascript
+Esse projeto foi desenvolvido para eu
+praticar a linguagem javascript
